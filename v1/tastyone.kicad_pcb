@@ -16141,6 +16141,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "dba361e6-8e3c-4387-97f7-b8112dd841b9")
 			(effects
 				(font
@@ -18359,6 +18360,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bba2be19-f057-4649-9321-fa8623eff75b")
 			(effects
 				(font
