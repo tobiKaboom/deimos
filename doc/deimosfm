@@ -16,17 +16,19 @@ XXX = KC.NO
 
 keyboard.keymap = [
                   [#base
-                   KC.Q, KC.W, KC.E, KC.R, KC.T,               KC.Y, KC.U, KC.I, KC.O, KC.P,\
-                   KC.A, KC.S, KC.D, KC.F, KC.G                KC.H, KC.J, KC.K, KC.L, KC.ENT,\
-                   KC.LSFT, KC.Z, KC.X, KC.C, KC.V,            KC.B, KC.N, KC.M, KC.COMM, KC.DOT,\
-                   KC.LCTRL, KC.LWIN, KC.SPC,                  KC.MO(1), KC.RALT, KC.MO(2), KC.MO(3),\
+                   KC.Q, KC.W, KC.E, KC.R, KC.T,                 KC.Y, KC.U, KC.I, KC.O, KC.P,\
+                   KC.A, KC.S, KC.D, KC.F, KC.G                  KC.H, KC.J, KC.K, KC.L, KC.ENT,\
+                   KC.LSFT, KC.Z, KC.X, KC.C, KC.V,              KC.B, KC.N, KC.M, KC.COMM, KC.DOT,\
+                   KC.LCTRL, KC.LWIN, KC.SPC,                    KC.MO(3), KC.RALT, KC.MO(1), KC.MO(2),\
                   ]
                   [#layer 1
-                   KC.N1, KC.N2, KC.N3, KC.N4, KC.N5,          KC.N6, KC.N7, KC.N8, KC.N9, KC.N0,\
-                   KC.GRV, KC.NUBS, XXX, XXX, KC.DEL,          XXX, XXX, XXX, KC.MINUS, KC.EQUAL,\
-                   KC.F1, KC.F2, KC.F3, KC.F4, KC.F5,          KC.F6, KC.F7, KC.F8, KC.F9, KC.F10,\
-                   XXX, KC.F11, XXX,                           XXX, KC.F12, XXX, XXX,\
+                   KC.N1, KC.N2, KC.N3, KC.N4, KC.N5,            KC.N6, KC.N7, KC.N8, KC.N9, KC.N0,\
+                   KC.GRV, KC.NUBS, XXX, XXX, KC.DEL,            XXX, XXX, XXX, KC.MINUS, KC.EQUAL,\
+                   KC.F1, KC.F2, KC.F3, KC.F4, KC.F5,            KC.F6, KC.F7, KC.F8, KC.F9, KC.F10,\
+                   XXX, KC.F11, XXX,                             XXX, KC.F12, XXX, XXX,\
                   ]
                   [#yummy layer 2
-                   KC.ESC, KC.UP, XXX, XXX, XXX,                 XXX, XXX, XXX, XXX, KC.BSPC,\
-                   KC.LEFT, KC.DOWN, KC.RIGHT
+                   KC.ESC, KC.UP, XXX, XXX, XXX,                 XXX, KC.PSCR, KC.SLCK, KC.PAUSE, KC.BSPC,\
+                   KC.LEFT, KC.DOWN, KC.RIGHT, KC.END, KC.HOME,  XXX, KC.INS, KC.HOME, KC.PGUP, XXX,\
+                   XXX, XXX, XXX, XXX, XXX,                      XXX, KC.DEL, KC.END, KC.PGDOWN, XXX,\
+                   
