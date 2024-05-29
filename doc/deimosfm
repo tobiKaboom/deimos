@@ -45,3 +45,5 @@ keyboard.keymap = [
 
 if __name__ == '__main__':
     keyboard.go()
+
+#this is simply the layout i like to use. to edit it, download it and to change the keymap refer to kmkfw.io and the multiple tutorials available on youtube.
