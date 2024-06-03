@@ -19,8 +19,8 @@ XXX = KC.NO
 keyboard.keymap = [
                   [#base
                    KC.Q, KC.W, KC.E, KC.R, KC.T,                 KC.Y, KC.U, KC.I, KC.O, KC.P,\
-                   KC.A, KC.S, KC.D, KC.F, KC.LSFT(KC.G),        KC.RSFT(KC.H), KC.J, KC.K, KC.L, KC.ENT,\
-                   KC.Z, KC.X, KC.C, KC.V, KC.B,                 KC.N, KC.M, KC.COMM, KC.DOT, KC.SLSH\
+                   KC.A, KC.S, KC.D, KC.LSFT(KC.F), KC.G,        KC.H, KC.RSFT(KC.J), KC.K, KC.L, KC.ENT,\
+                   KC.Z, KC.X, KC.C, KC.V, KC.B,                 KC.B, KC.N, KC.M, KC.COMM, KC.DOT,\
                    KC.LCTRL, KC.LWIN, XXX, KC.SPC, XXX,          KC.MO(3), XXX, KC.RALT, KC.MO(1), KC.MO(2),\
                    ]
                   [#layer 1
