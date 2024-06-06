@@ -1,3 +1,3 @@
-deimosproduction.zip is the file with all the gerbers, if you are using JLCPCB you can just drag and drop it in there.
+deimosproduction.zip is the file with all the gerbers, if you are using JLCPCB or PCBway you can just drag and drop it in there.
 if you want to edit the raw file, which i advise not to do as it's very confusing even for me, the designer, you have to download and add to your KiCAD libraries Joe Scotto's 
 libraries specifically for keyboards.
