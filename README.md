@@ -20,3 +20,4 @@ Deimos is a 40% split unibody ortholinar keyboard that uses the Raspberry Pi Pic
 | Tweezers | No, but reccomended | Placing smaller parts |
 | Fan or solder hood | No, but reccomended | Safety |
 | Eye protection | No, but reccomended | Safety |
+
