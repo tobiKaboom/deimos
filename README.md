@@ -9,7 +9,7 @@ Deimos is a 40% split unibody ortholinar keyboard that uses the Raspberry Pi Pic
 | Board         | Raspberry Pi Pico (classic board) | 1      |
 | Buttons | 6mm micro-switches | 2 |
 | LED | 5mm LED | 2 |
-| Male to male headers | Not needed if you are going to use diode legs | 40 |
+| Electrical tape | - | 1 |
 ## Tools list
 | Tools         | Is it necessary? | Use |
 | ------------- | ------------- | ------ |
