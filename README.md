@@ -15,7 +15,7 @@ Deimos is a 40% split unibody ortholinar keyboard that uses the Raspberry Pi Pic
 | ------------- | ------------- | ------ |
 | Soldering iron      | Yes  | Soldering |
 | Solder wire| Yes | Soldering |
-| Screwdriver | Yes | Screwing standoffs |
+| Screwdriver | Yes | Screwing in standoffs |
 | Tape | No, but reccomended | Holding components in place |
 | Tweezers | No, but reccomended | Placing smaller parts |
 | Fan or solder hood | No, but reccomended | Safety |
