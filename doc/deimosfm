@@ -8,7 +8,7 @@ from kmk.matrix import DiodeOrientation
 
 keyboard = KMKKeyboard()
 
-keyboard.col_pins = (board.GP0, board.GP1, board.GP2, board.GP3, board.GP4, board.GP5 board.GP6, board.GP7, board.GP8, board.GP9)
+keyboard.col_pins = (board.GP0, board.GP1, board.GP2, board.GP3, board.GP4, board.GP5, board.GP6, board.GP7, board.GP8, board.GP9)
 keyboard.row_pins = (board.GP19, board.GP18, board.GP17, board.GP16)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
@@ -39,11 +39,10 @@ keyboard.keymap = [
                    XXX, XXX, XXX, XXX, XXX,                      XXX, XXX, KC.LBRC, KC.RBRC, KC.BSLS,\
                    XXX, XXX, XXX, XXX, XXX,                      XXX, XXX, XXX, KC.SCLN, KC.QUOTE,\
                    KC.LSHIFT, XXX, XXX, XXX, XXX,                XXX, XXX, XXX, XXX, KC.SLSH,\
-                   KC.LCTRL, LWIN, XXX, XXX, XXX,                XXX, XXX, XXX, XXX, XXX,\
+                   KC.LCTRL, LGUI, XXX, XXX, XXX,                XXX, XXX, XXX, KC.RGUI, KC.RCTL,\
                    ]
 ]
 
-if __name__ == '__main__':
     keyboard.go()
 
 #this is simply the layout i like to use. to edit it, download it and to change the keymap refer to kmkfw.io and the multiple tutorials available on youtube.
