@@ -10,6 +10,7 @@ Deimos is a 40% split unibody ortholinar keyboard that uses the Raspberry Pi Pic
 | Buttons | 6mm micro-switches | 2 |
 | LED | 5mm LED | 2 |
 | Electrical tape | - | 1 |
+| Resistor | 220 ohm | 1 |
 ## Tools list
 | Tools         | Is it necessary? | Use |
 | ------------- | ------------- | ------ |
