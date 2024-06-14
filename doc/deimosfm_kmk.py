@@ -19,10 +19,10 @@ XXX = KC.NO
 
 keyboard.keymap = [
                   [#base
-                   KC.Q, KC.W, KC.E, KC.Y, KC.T,                 KC.R, KC.U, KC.I, KC.O, KC.P,\ #some keys are flipped but they need to be like that dont ask me why i didnt design this board (i did but i have no idea why it does that)
-                   KC.A, KC.S, KC.D, KC.H, KC.G,                 KC.F, KC.J, KC.K, KC.L, KC.ENT,\
+                   KC.Q, KC.W, KC.E, KC.T, KC.Y,                 KC.R, KC.U, KC.I, KC.O, KC.P,\ #some keys are flipped but they need to be like that dont ask me why i didnt design this board (i did but i have no idea why it does that)
+                   KC.A, KC.S, KC.D, KC.G, KC.H,                 KC.F, KC.J, KC.K, KC.L, KC.ENT,\
                    KC.Z, KC.X, KC.C, KC.B, KC.B,                 KC.V, KC.N, KC.M, KC.COMM, KC.DOT,\
-                   KC.LCTRL, KC.LWIN, XXX, XXX, KC.SPC,          KC.MO(3), XXX, KC.RALT, KC.MO(1), KC.MO(2),\
+                   KC.LCTRL, KC.LWIN, XXX, KC.MO(3), XXX,        KC.SPC, XXX, KC.RALT, KC.MO(1), KC.MO(2),\
                    ]
                   [#layer 1
                    KC.N1, KC.N2, KC.N3, KC.N4, KC.N5,            KC.N6, KC.N7, KC.N8, KC.N9, KC.N0,\
