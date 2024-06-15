@@ -25,5 +25,9 @@ Deimos is a 40% split unibody ortholinar keyboard that uses the Raspberry Pi Pic
 ## Firmware 
 Deimos currently runs on KMK. If you want to try and port it to QMK, ZMK or any other firmware you are welcome to do so.
 
+## License
+This work falls under the Creative Commons Attribution-ShareAlike 4.0 international license.
+For more info, check LICENSE.md or https://creativecommons.org/licenses/by-sa/4.0/deed.en
+
 ## Issues
 The right button is supposed to light up the LED, but it will burn it out. I am dumb. Use a resistor to avoid that.
