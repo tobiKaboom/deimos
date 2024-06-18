@@ -6,6 +6,7 @@ import board
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
+from kmk.modules.layers import Layers
 
 keyboard = KMKKeyboard()
 
@@ -20,27 +21,27 @@ XXX = KC.NO
 keyboard.keymap = [
                   [#base
                    KC.Q, KC.W, KC.E, KC.T, KC.Y,                 KC.R, KC.U, KC.I, KC.O, KC.P, #some keys are flipped but they need to be like that dont ask me why i didnt design this board (i did but i have no idea why it does that)
-                   KC.A, KC.S, KC.D, KC.G, KC.H,                 KC.F, KC.J, KC.K, KC.L, KC.ENT,\
-                   KC.Z, KC.X, KC.C, KC.B, KC.B,                 KC.V, KC.N, KC.M, KC.COMM, KC.DOT,\
-                   KC.LCTRL, KC.LWIN, XXX, KC.MO(3), XXX,        KC.SPC, XXX, KC.RALT, KC.MO(1), KC.MO(2),\
+                   KC.A, KC.S, KC.D, KC.G, KC.H,                 KC.F, KC.J, KC.K, KC.L, KC.ENT,
+                   KC.Z, KC.X, KC.C, KC.B, KC.B,                 KC.V, KC.N, KC.M, KC.COMM, KC.DOT,
+                   KC.LCTRL, KC.LWIN, XXX, KC.MO(3), XXX,        KC.SPC, XXX, KC.RALT, KC.MO(1), KC.MO(2)
                    ]
                   [#layer 1
-                   KC.N1, KC.N2, KC.N3, KC.N4, KC.N5,            KC.N6, KC.N7, KC.N8, KC.N9, KC.N0,\
-                   KC.GRV, KC.NUBS, XXX, XXX, KC.DEL,            XXX, XXX, XXX, KC.MINUS, KC.EQUAL,\
-                   KC.LSHIFT, KC.F2, KC.F3, KC.F4, KC.F5,        KC.F6, KC.F7, KC.F8, KC.F9, KC.F10,\
-                   KC.LCTRL, KC.F1, XXX, KC.F11, XXX,            XXX, KC.F12, XXX, XXX, XXX,\
+                   KC.N1, KC.N2, KC.N3, KC.N4, KC.N5,            KC.N6, KC.N7, KC.N8, KC.N9, KC.N0,
+                   KC.GRV, KC.NUBS, XXX, XXX, KC.DEL,            XXX, XXX, XXX, KC.MINUS, KC.EQUAL,
+                   KC.LSHIFT, KC.F2, KC.F3, KC.F4, KC.F5,        KC.F6, KC.F7, KC.F8, KC.F9, KC.F10,
+                   KC.LCTRL, KC.F1, XXX, KC.F11, XXX,            XXX, KC.F12, XXX, XXX, XXX
                    ]
                   [#yummy layer 2
-                   KC.ESC, KC.UP, XXX, XXX, XXX,                 XXX, KC.PSCR, KC.SLCK, KC.PAUSE, KC.BSPC,\
-                   KC.LEFT, KC.DOWN, KC.RIGHT, KC.END, KC.HOME,  XXX, KC.INS, KC.HOME, KC.PGUP, XXX,\
-                   KC.LSHIFT, KC.F14, KC.F15, KC.F16, KC.F17,    XXX, KC.DEL, KC.END, KC.PGDOWN, XXX,\
-                   KC.LCTRL, KC.F19, XXX, KC.F20, XXX,           XXX, XXX, XXX, XXX, XXX,\
+                   KC.ESC, KC.UP, XXX, XXX, XXX,                 XXX, KC.PSCR, KC.SLCK, KC.PAUSE, KC.BSPC,
+                   KC.LEFT, KC.DOWN, KC.RIGHT, KC.END, KC.HOME,  XXX, KC.INS, KC.HOME, KC.PGUP, XXX,
+                   KC.LSHIFT, KC.F14, KC.F15, KC.F16, KC.F17,    XXX, KC.DEL, KC.END, KC.PGDOWN, XXX,
+                   KC.LCTRL, KC.F19, XXX, KC.F20, XXX,           XXX, XXX, XXX, XXX, XXX
                    ]
                   [#i dont want to code anymore but layer 3
-                   XXX, XXX, XXX, XXX, XXX,                      XXX, XXX, KC.LBRC, KC.RBRC, KC.BSLS,\
-                   XXX, XXX, XXX, XXX, XXX,                      XXX, XXX, XXX, KC.SCLN, KC.QUOTE,\
-                   KC.LSHIFT, XXX, XXX, XXX, XXX,                XXX, XXX, XXX, XXX, KC.SLSH,\
-                   KC.LCTRL, LGUI, XXX, XXX, XXX,                XXX, XXX, XXX, KC.RGUI, KC.RCTL,\
+                   XXX, XXX, XXX, XXX, XXX,                      XXX, XXX, KC.LBRC, KC.RBRC, KC.BSLS,
+                   XXX, XXX, XXX, XXX, XXX,                      XXX, XXX, XXX, KC.SCLN, KC.QUOTE,
+                   KC.LSHIFT, XXX, XXX, XXX, XXX,                XXX, XXX, XXX, XXX, KC.SLSH,
+                   KC.LCTRL, LGUI, XXX, XXX, XXX,                XXX, XXX, XXX, KC.RGUI, KC.RCTL
                    ]
 ]
 
