@@ -35,3 +35,6 @@ For more info, check LICENSE.md or https://creativecommons.org/licenses/by-sa/4.
 
 ## Issues
 The right button is supposed to light up the LED, but it will burn it out. I am dumb. Use a resistor to avoid that.
+
+## Disclaimer
+This PCB has been fully tested and confirmed to work. The members of the PCB development team are however not liable if you end up with a non-functional pcb. Order at your own risk. Support will not be provided but pull requests will be reviewed and possibly accepted, although i do not know how that works.
