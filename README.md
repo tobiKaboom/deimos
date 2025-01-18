@@ -1,5 +1,5 @@
 # Δεῖμος
-Deimos is a 40% split unibody ortholinar keyboard that uses the Raspberry Pi Pico for more accessibility, whose layout is similiar to the Lesovoz but has easier kitting. 
+Deimos is a 40% split unibody ortholinear keyboard that uses the Raspberry Pi Pico for more accessibility, whose layout is similiar to the Lesovoz but has easier kitting. 
 
 ![100_0846](https://github.com/user-attachments/assets/ca45a6ca-c90f-4664-8ac4-50c35cd36172)
 
